@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/outback2" 
+        android:orientation="vertical">
+    
+        <ScrollView
+            android:id="@+id/TVOP"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:isScrollContainer="true"
+            android:scrollbarFadeDuration="1000"
+            android:scrollbarSize="2dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+             >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"  />
+        </ScrollView>
+
+    
+    <TableLayout
+    android:id="@+id/TableLayoutbtns"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_gravity="center"
+    >
+        <Button
+            android:id="@+id/ToStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:onClick="ToStart"
+            android:text="Go to Start" />
+
+        <Button
+            android:id="@+id/ToCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="ToCheck"
+            android:text="Check Transactions" />
+        
+         <Button
+            android:id="@+id/camBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Time for a pic!" />
+      </TableLayout>
+
+           
+
+</LinearLayout>

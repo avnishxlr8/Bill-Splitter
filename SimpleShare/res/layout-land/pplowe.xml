@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/oweback"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/headingTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Select your name" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/headingTv"
+            android:prompt="@string/select" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="36dp"
+            android:prompt="@string/select" />
+
+        <Button
+            android:id="@+id/submitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="27dp"
+            android:onClick="onClickInfo"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="15dp"
+            android:text="Select the name of the person who owes you" />
+
+        <Button
+            android:id="@+id/NameHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="420dp"
+            android:text="Can&apos;t find name?" 
+            android:onClick="nameHelp"
+            />
+
+        <Button
+            android:id="@+id/toStfrmOwe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="ToStart"
+            android:text="Go To Start" />
+
+    </RelativeLayout>
+
+</ScrollView>

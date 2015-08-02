@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleShare</string>
+    <string name="action_settings">Setting</string>
+    <string name="hello">SimpleShareActivity!</string>
+    <string name="select">Select</string>
+    
+    <string name="Help">1)What is the app about?\n
+ ->Simple Share is a Bill Splitter app which will help you in splitting the bill among friends.\n
+2)Why this app is your necessity?\n
+ ->When you dine out with other people,splitting a bill can be a source of conflict among friends.\n
+  It can be difficult to split bills fairly without antagonizing anyone in the process.\n
+  Money can be a touchy subject, and people don\'t always react well when prompted for their contribution towards a bill.\n
+3)How to use SimpleShare?\n
+ ->Click on start for the bill splitting process.\n
+ ->Enter the names of your friends which should be unique,  and the amount they are willing to pay.\n  
+ ->Enter the total bill amount.\n
+ ->That\'s it, Now click on the calculate Button.\n
+ ->Voila! You got the figures that each person has to pay to pay the total Bill.\n
+4)Features of SimpleShare:\n
+ ->You can check out Previous Transaction details.\n
+ ->You can even send a Whatsapp reminder to those who owe money to anyone.\n
+ ->Capture the moment with your friends into an image.\n
+5)Limitations:\n
+ ->Currently this app limits itself to a group of five friends.\n
+ ->We will try to extend its functionality to have support for as many number of friends as we can. </string>
+ 
+    <string name="About">This app is developed by\nAvnish Vishwakarma\nand\nTanmay Puranik.\nFor any queries email us to 
+        avnish.vish95@gmail.com    tp2594@gmail.com</string>
+  
+</resources>
